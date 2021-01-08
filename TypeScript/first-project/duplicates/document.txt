@@ -1,0 +1,12 @@
+All thhe types:
+#### number
+#### string
+#### boolean
+#### objects
+#### array
+#### tuple
+#### enum
+#### any
+#### union
+#### function
+#### unknown

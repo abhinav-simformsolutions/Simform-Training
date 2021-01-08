@@ -1,0 +1,59 @@
+.topic-containers{
+background: whitesmoke;
+width:100%;
+max-width:100%;
+
+
+}
+.heading{
+    text-align: center;
+    text-shadow:  2px 2px #ff0000;
+   
+}
+
+h1{
+    color: rgb(245, 159, 0);
+}
+
+a{
+    color:red;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color:lightcoral;
+    text-decoration: underline;
+    cursor:pointer;
+    
+}
+
+img{
+    
+    width:70%;
+    height:70%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+
+.back{
+    background-image: url("https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+table, th, td {
+    padding: 10px 30px;
+    border:2px solid greenyellow;
+    color:brown;
+    width:100%;
+    max-width:100%;
+}
+
+
