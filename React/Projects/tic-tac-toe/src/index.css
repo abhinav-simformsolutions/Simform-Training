@@ -1,0 +1,74 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-image: url("https://cutewallpaper.org/21/hd-website-backgrounds/Free-download-25-Website-Backgrounds-The-HostBaby-Blog-.jpg");
+}
+.main-heading {
+  color: #ed0f5c;
+  font-size: 35px;
+  margin-left: 400px;
+  margin-top: 10px;
+  text-shadow: 1px 1px #888888;
+  
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status-head {
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ed0f5c;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 84px;
+  height: 84px;
+  color: #01f220;
+  box-shadow: 2px 1px 2px 2px #111;
+}
+
+.square:hover {
+  background-color: #ddd;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
