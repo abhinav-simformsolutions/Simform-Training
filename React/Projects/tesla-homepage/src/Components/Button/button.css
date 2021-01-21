@@ -1,0 +1,28 @@
+.button {
+  height: 40px;
+  width: 250px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(23, 26, 32, 0.8);
+  opacity:0.85;
+  border-radius: 100px;
+
+}
+
+.button >a{
+    text-decoration: none;
+    color:white;
+    font-size: 12px;
+}
+
+.button_white{
+    background-color: white;
+    opacity: 0.65;
+    
+}
+
+.button_white > a{
+    color: black;
+}
