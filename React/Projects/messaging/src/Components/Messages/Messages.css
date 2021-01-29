@@ -1,0 +1,21 @@
+.message{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    color: white;
+    
+}
+
+.message__info{
+    margin: 20px;
+    /* background-color: #B11048;
+    padding: 10px 20px;
+    border-radius:100px;
+    max-width:50%; */
+    
+}
+.message__timestamp{
+    color:rgb(182, 174, 174);
+    margin-left:20px;
+    font-size:x-small;
+}

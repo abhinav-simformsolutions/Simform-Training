@@ -1,0 +1,45 @@
+.landing {
+    
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+      
+  }
+
+
+
+.landing__button {
+  width: 350px;
+  padding: 10px 20px;
+  background-color: #738adb;
+  color: #eff2f5;
+  font-weight: 800;
+  border: none;
+  border-radius: 5px;
+  outline: 0 !important;
+  font-size: 18px;
+}
+
+.landing__button:hover{
+    background-color: black;
+    color: #738adb;
+}
+
+.landing__logo >img{
+    object-fit: contain;
+    height:150px;
+    margin-bottom:40%;
+    margin-left:-10%;
+}
+.landing__developer{
+  
+  margin-top: 4%;
+  font-size: smaller;
+  margin-left: 15%;
+}
+.landing__developer >a{
+  color: #2147cf;
+}
+
